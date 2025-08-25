@@ -1,13 +1,13 @@
 {
-  "name": "custom/PaginationExtension",
+  "name": "custom/$PLUGIN_NAME",
   "type": "shopware-platform-plugin",
   "autoload": {
     "psr-4": {
-      "PaginationExtension\\\\\\\": "src/"
+      "$PLUGIN_NAME\\\\": "src/"
     }
   },
   "extra": {
-    "shopware-plugin-class": "PaginationExtension\\\\PaginationExtension",
+    "shopware-plugin-class": "$PLUGIN_NAME\\\\$PLUGIN_NAME",
     "label": {
       "en-GB": "Pagination Extension"
     }
